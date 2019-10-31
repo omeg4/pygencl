@@ -10,7 +10,8 @@ For the most streamlined experience, create an alias to run the script from any 
 
 > `echo " alias pygencl='cd ~/RepoPath && python3 gencl.py'" >> ~/.zshrc`
 
-*Note*: It is important to execute `cd ~/RepoPath && python3 gencl.py`, since the script is written using relative directories, so that the `cwd` must be `~/RepoPath`.
+*Note*: It is important to execute `cd ~/RepoPath && python3 gencl.py`, since the script is written using relative directories, such that `gencl.py` must be executed from within `~/RepoPath`.
 
 TODO:
-	* Replace my personal Cover Letters with dummy files for illustrative purposes.
+
+	* Implement a quick setup.py script to guide new users
