@@ -1,0 +1,68 @@
+\documentclass[11pt]{letter} % Default font size of the document, change to 10pt to fit more text
+
+\usepackage{nth}
+\usepackage{newcent} % Default font is the New Century Schoolbook PostScript font
+%\usepackage{helvet} % Uncomment this (while commenting the above line) to use the Helvetica font
+\newcommand{\tnd}{\textendash{}\ }
+\newcommand{\company}{GlappleBook-a-Zon Inc.\ }
+\newcommand{\job}{Important Sounding Title}
+\usepackage[
+letterpaper,
+% showframe,
+margin=1in
+]{geometry}
+
+\let\raggedleft\raggedright % Pushes the date (at the top) to the left, comment this line to have the date on the right
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	ADDRESSEE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{letter}{
+  Recruitment Officer \\
+  \company \\
+  ATTN: \job
+}
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME & ADDRESS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{center}
+\large\bf Dr. Mr. John B. Smith IV, MD, JD, PhD\\ % Your name
+%\vspace{20pt} \hrule height 1pt % If you would like a horizontal line separating the name from the address, uncomment the line to the left of this text
+Address 1\\
+Address 2\\
+(Pho)ne-Number % Your address and phone number
+\end{center}
+% \vfill
+
+\signature{Dr. John Smith} % Your name for the signature at the bottom
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT SECTION
+%----------------------------------------------------------------------------------------
+
+\opening{To whom it may concern,}
+
+  My name is John Smith and I am excited to apply to \company for the role of \job.
+  I believe that I would be a good fit for this job because of my prior work experience, skillset, and personality.
+
+  In short, my passion for this role is driven by a ``love of the game''.
+  I love doing my job, which is why I do it, and why I am good at it.
+  Because I am good at what I do, I can distinguish myself from other candidates by pointing out a specific accomplishment of which I am proud.
+  If you hire me, I can do that thing for your company, too.
+
+  Thank you for your consideration of my application for this position.
+  I look forward to hearing back about the next steps in the application process and I would be more than happy to further discuss my qualifications and fit for the role.
+
+
+\closing{Sincerely yours,}
+
+%----------------------------------------------------------------------------------------
+
+\end{letter}
+
+\end{document}
