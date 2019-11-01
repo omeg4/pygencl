@@ -5,7 +5,7 @@ import string
 
 homedr = os.getenv('HOME')
 gendir = 'autogen/'
-pdfdir = homedr + '/datadrop/Dropbox/jobapps/covletts' # Modify as necessary
+pdfdir = homedr + '/datadrop/Dropbox/jobapps/covletts/' # Modify as necessary
 cldict = { 'ds' : 'bash-datsci.tex', 'fin' : 'bash-finance.tex', 'example' : 'template-example.tex' } # Modify as necessary
 
 def fnameformat(inarg):
